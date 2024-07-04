@@ -1,0 +1,128 @@
+* {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+body {
+    /* background-color: aqua; */
+}
+
+.main-body {
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 15px;
+}
+
+.top {
+    padding: 1px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 16px;
+    cursor: pointer;
+}
+.top:hover{
+    background-color: rgb(210, 198, 198);
+}
+
+.top-box {
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.top-box:hover{
+    font-size: 28px;
+    color: #c469097d;
+}
+
+.box-text {
+    margin-left: 80px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.box-text:hover{
+    font-size: 20px;
+    color: gold;
+}
+
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(50px, auto);
+
+
+}
+
+.navigation-box {
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.navigation-box:hover {
+    background-color: rgb(245, 245, 124);
+}
+
+.navigation-box h2:hover {
+    font-size: 28px;
+    color: hotpink;
+}
+
+ul li {
+    list-style-type: none;
+
+}
+
+.navigation-box p:hover {
+    font-size: 20px;
+    color: rgb(208, 83, 233);
+}
+
+li a {
+    text-decoration: none;
+}
+
+.navigation-box li a:hover {
+    font-size: 25px;
+    color: darkred;
+}
+
+.content-box {
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.content-box:hover {
+    background-color: lightyellow;
+}
+
+.content-box h2:hover {
+    font-size: 28px;
+    color: aquamarine;
+}
+
+.content-box p:hover {
+    font-size: 20px;
+    color: lightgreen;
+}
+
+.content-box li a:hover {
+    font-size: 25px;
+    color: rgb(124, 14, 14);
+}
+
+
+
+/* .dv{
+    position: absolute;
+    right: 13px;
+    bottom: 200px;
+    
+    z-index: -1;
+} */
