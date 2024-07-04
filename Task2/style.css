@@ -1,0 +1,28 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #616161;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: #1ABC9C;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+p{
+    text-align: center;
+    
+    
+}
